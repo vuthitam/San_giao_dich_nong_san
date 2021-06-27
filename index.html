@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/style.css" rel="stylesheet"/> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {    
+  $('#list').click(function(event){event.preventDefault();$('#products .item').addClass('list-group-item');});    
+  $('#grid').click(function(event){event.preventDefault();$('#products .item').removeClass('list-group-item');
+  $('#products .item').addClass('grid-group-item');
+  });
+  });</script>
+<title>SÀN GIAO DỊCH NÔNG SẢN TRỰC TUYẾN</title>
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="wrapper">
+      <header>
+        <h1>Sàn giao dịch nông sản trực tuyến</h1> 
+        <div class="box">
+          <div class="container-1">
+              <span class="icon"><i class="fa fa-search"></i></span>
+              <input type="search" id="search" placeholder="Search..." />
+          </div>
+      </div>
+        <nav class="menu">
+          <ul class="clearfix">
+              <li>
+                  <a href="#">Trang chủ <span class="arrow">&#9660;</span></a>
+   
+                  <ul class="sub-menu">
+                      <li><a href="#">Rau, củ, quả</a></li>
+                      <li><a href="#">Trái cây</a></li>
+                      <li><a href="#">Hoa tươi</a></li>
+                  </ul>
+              </li>
+              <li><a href="#">Sản phẩm có sẵn</a></li>
+              <li><a href="#">Sản phẩm sắp có</a></li>
+              <li><a href="#"> Nhà cung cấp</a> </li>
+              <li><a href="#">Liên hệ báo giá</a></li>
+              <li><a href="#">Đăng ký/Đăng nhập</a></li>
+          </ul>
+      </nav>
+      </header> 
+      <section class="items">
+      <div class="container"> 
+        <h1> Sản phẩm nổi bật</h1> 
+        <div class="well well-sm text-right"> <strong>Chọn kiểu hiển thị</strong> 
+         <div class="btn-group"> <a href="http://hocwebgiare.com/#" id="list" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-th-list"> </span>Dạng danh sách</a> <a href="http://hocwebgiare.com/#" id="grid" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-th"></span>Dạng lưới</a> 
+         </div> 
+        </div> 
+        <div id="products" class="row list-group"> 
+         <div class="item  col-xs-3 col-lg-3"> 
+          <div class="thumbnail"> <img class="group list-group-image" src="image/cam.png" alt="Cam lòng vàng" width="300"> 
+           <div class="caption"> 
+            <h4 class="group inner list-group-item-heading">Cam lòng vàng</h4> 
+            <p class="group inner list-group-item-text"> Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p> 
+            <div class="row"> 
+             <div class="col-xs-12 col-md-6"> 
+              <p class="lead"> 200.000 đ</p> 
+             </div> 
+             <div class="col-xs-12 col-md-6"> <a class="btn btn-success" href="">Chi tiết</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+
+         <div class="item  col-xs-3 col-lg-3"> 
+          <div class="thumbnail"> <img class="group list-group-image" src="image/dautay.png" alt="Dâu tây Cò Nòi" width="300"> 
+           <div class="caption"> 
+            <h4 class="group inner list-group-item-heading"> Dâu tây Cò Nòi</h4> 
+            <p class="group inner list-group-item-text"> Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p> 
+            <div class="row"> 
+             <div class="col-xs-12 col-md-6"> 
+              <p class="lead"> 200.000 đ</p> 
+             </div> 
+             <div class="col-xs-12 col-md-6"> <a class="btn btn-success" href="">Chi tiết</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="item  col-xs-3 col-lg-3"> 
+          <div class="thumbnail"> <img class="group list-group-image" src="image/dua.png" alt="Dưa Pepino Đà Lạt" width="300"> 
+           <div class="caption"> 
+            <h4 class="group inner list-group-item-heading"> Dưa Pepino Đà Lạt</h4> 
+            <p class="group inner list-group-item-text"> Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p> 
+            <div class="row"> 
+             <div class="col-xs-12 col-md-6"> 
+              <p class="lead"> 200.000 đ</p> 
+             </div> 
+             <div class="col-xs-12 col-md-6"> <a class="btn btn-success" href="">Chi tiết</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="item  col-xs-3 col-lg-3"> 
+          <div class="thumbnail"> <img class="group list-group-image" src="image/toi.png" alt="Tỏi Lý Sơn - Thương hiệu" width="300"> 
+           <div class="caption"> 
+            <h4 class="group inner list-group-item-heading"> Tỏi Lý Sơn - Thương hiệu</h4> 
+            <p class="group inner list-group-item-text"> Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,  sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p> 
+            <div class="row"> 
+             <div class="col-xs-12 col-md-6"> 
+              <p class="lead"> 200.000 đ</p> 
+             </div> 
+             <div class="col-xs-12 col-md-6"> <a class="btn btn-success" href="">Chi tiết</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="item  col-xs-3 col-lg-3"> 
+          <div class="thumbnail"> <img class="group list-group-image" src="image/chuoi.png" alt="Chuối Cavendish" width="300"> 
+           <div class="caption"> 
+            <h4 class="group inner list-group-item-heading"> Chuối Cavendish</h4> 
+            <p class="group inner list-group-item-text"> Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,  sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p> 
+            <div class="row"> 
+             <div class="col-xs-12 col-md-6"> 
+              <p class="lead"> 200.000 đ</p> 
+             </div> 
+             <div class="col-xs-12 col-md-6"> <a class="btn btn-success" href="">Chi tiết</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="item  col-xs-3 col-lg-3"> 
+          <div class="thumbnail"> <img class="group list-group-image" src="image/dua_thom.png" alt="Dứa Cayenne Đơn Dương" width="300"> 
+           <div class="caption"> 
+            <h4 class="group inner list-group-item-heading"> Dứa Cayenne Đơn Dương</h4> 
+            <p class="group inner list-group-item-text"> Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p> 
+            <div class="row"> 
+             <div class="col-xs-12 col-md-6"> 
+              <p class="lead">200.000 đ</p> 
+             </div> 
+             <div class="col-xs-12 col-md-6"> <a class="btn btn-success" href="">Chi tiết</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="item  col-xs-3 col-lg-3"> 
+          <div class="thumbnail"> <img class="group list-group-image" src="image/buoi.png" alt="Bưởi đỏ Tân Lạc" width="300"> 
+           <div class="caption"> 
+            <h4 class="group inner list-group-item-heading"> Bưởi đỏ Tân Lạc</h4> 
+            <p class="group inner list-group-item-text"> Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p> 
+            <div class="row"> 
+             <div class="col-xs-12 col-md-6"> 
+              <p class="lead">200.000 đ</p> 
+             </div> 
+             <div class="col-xs-12 col-md-6"> <a class="btn btn-success" href="http://hocwebgiare.com/">Chi tiết</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="item  col-xs-3 col-lg-3"> 
+          <div class="thumbnail"> <img class="group list-group-image" src="image/hong_gion.png" alt="Hồng sấy dẻo, Hồng Treo" width="300"> 
+           <div class="caption"> 
+            <h4 class="group inner list-group-item-heading"> Hồng sấy dẻo, Hồng Treo</h4> 
+            <p class="group inner list-group-item-text"> Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p> 
+            <div class="row"> 
+             <div class="col-xs-12 col-md-6"> 
+              <p class="lead">200.000 đ</p> 
+             </div> 
+             <div class="col-xs-12 col-md-6"> <a class="btn btn-success" href="">Chi tiết</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div>
+       </div>
+      </section>
+      <aside>
+        <h2>Tin nổi bật</h2>
+        <div id="slideshow">
+          <div class="slide-wrapper">
+            <div class="slide"><img  height="510" width="400" src="image/nhan.jpg"></div>
+            <div class="slide"><img  height="510" width="400" src="image/nho.jpg"></div>
+            <div class="slide"><img  height="510" width="400" src="image/vai.jpg"></div>
+          </div>
+        </div>
+       
+        <section class="special">
+            
+            <h2>Đặc sản nổi bật</h2>
+            <a href=""> Vải thiều Lục Ngạn</a>
+            <a href=""> Nhãn lồng Hưng Yên</a>
+            <a href=""> Cà phê Buôn Ma Thuột</a>
+            <a href="">Sầu riêng Cái Mơn </a>
+            <a href="">Mít tố nữ </a>
+  
+        </section>
+        <section class="contact">
+            <h2>Liên hệ</h2>
+            <h3>Tổng đài CSKH: 19001515 </h3> <br/>
+        </section>
+    </aside>
+   
+    <footer>
+        @2021 Copyright by Vu Thi Tam 
+    </footer>
+    </div>
+
+</body>
+</html>
