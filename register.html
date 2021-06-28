@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="css/register.css" rel="stylesheet"/> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript">
+     $(document).ready(function() {    
+    $('#list').click(function(event){event.preventDefault();$('#products .item').addClass('list-group-item');});    
+    $('#grid').click(function(event){event.preventDefault();$('#products .item').removeClass('list-group-item');
+    $('#products .item').addClass('grid-group-item');
+        });
+    });</script>
+        <title>Trang Đăng ký-Đăng nhập</title>
+    </head>
+    <body>
+        <header>
+          <h1>Trang đăng ký</h1>  
+          <div class="box">
+            <div class="container-1">
+                <span class="icon"><i class="fa fa-search"></i></span>
+                <input type="search" id="search" placeholder="Search..." />
+            </div>
+        </div>
+          <nav class="menu">
+            <ul class="clearfix">
+                <li>
+                    <a href="index.html">Trang chủ </a>
+                </li>
+                <li><a href="#">Sản phẩm có sẵn</a></li>
+                <li><a href="#">Sản phẩm sắp có</a></li>
+                <li><a href="#"> Nhà cung cấp</a> </li>
+                <li><a href="#">Liên hệ báo giá</a></li>
+                
+            </ul>
+        </nav>
+        
+       </header> 
+    <!-- <div class="form">
+        <nav class="menu">
+            <ul>
+                <li class="current_tab"><a href="#">ĐĂNG KÝ</a></li>
+                <li><a href="login.html" >ĐĂNG NHẬP</a></li>
+            </ul>
+        </nav>
+        
+        <form action="#" method="post" name="dang-ky">
+        
+        <input type="text" name="username" placeholder="Nhập tên đăng ký" />
+        <input type="password" name="password" placeholder="Nhập mật khẩu" />
+        <input type="checkbox" id="checkbox" name="checkbox"><label class="checkbox-text">Nhớ đăng nhập lần sau</label><br/>
+        <input type="submit" name="submit" value="Đăng nhập" />
+        <label class="psw-text">Quên mật khẩu</label>
+        </form>
+    </div>  -->
+    <div class="form-tt">
+        <div>
+            <nav class="menu1">
+                <ul>
+                    <li ><a href="login.html">ĐĂNG KÝ</a></li>
+                    <li class="current-tab"><a >ĐĂNG NHẬP</a></li>
+                </ul>
+            </nav>
+        </div>
+        <form action="#" method="post" name="dang-ky">
+        
+        <input type="text" name="username" placeholder="   Tên đăng nhập" /> <br/>
+        <input type="password" name="password" placeholder="   Mật khẩu" />
+        <input type="checkbox" id="checkbox" name="checkbox"><label class="checkbox-text">Nhớ đăng nhập lần sau</label>
+        <input type="submit" name="submit" value="Đăng nhập" />
+        <label class="psw-text">Quên mật khẩu</label>
+        </form>
+        
+        </div>
+    </body>
+</html>
