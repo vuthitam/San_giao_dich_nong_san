@@ -2,11 +2,9 @@
     margin:0px;
     padding:0px;
 }
-header, section, footer, aside,
-nav {
+header, section, footer, aside{
     display: block;
 }
-
 
 body{
   color: rgb(0, 0, 0);
@@ -17,33 +15,36 @@ body{
   text-align: center;
 }
 
-.wrapper {
-  width: 100%;
-  box-shadow: 2px 6px 3px rgba(11, 255, 23, 0.767); 
-  background: inherit;
-  
-}
 marquee{
   color: #fd5000;
   font-size: 14px;
 }
-header{
-  position:relative;
-  width:100%;
-  height: 115px;
+.header{
   font-size: 18px;
-  font-weight: bold;
-  background-color:#5eb96d;
+  color: #ffffff;
+  background-color:#3e8a4b;
+  padding-top: 5px;
 }
+
 header h1{
-  color: #eeeeee;
+  color: #eb0404;
+  font-weight: bold;
+  text-shadow: 3px 5px 7px #ffffff;
 }
-span{
-  float: right;
+
+.log-in{
+  width: auto;
+}
+.log-in a, a:hover{
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: none;
+  text-decoration: none;
 }
 a{
      text-transform: uppercase;
-     font-size: 20px;
+     font-size: 25px;
+     text-decoration: none;
 }
 .special a{
     text-transform: initial;
@@ -52,23 +53,14 @@ a{
 h1{
     font-weight: bold;
     margin: 0px;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-bottom: 5px;
     font-family:  Geneva, Tahoma;
     
     text-transform: uppercase;
     font-size: 20px;
 }
-.box{
-    
-    margin: 0px 0px 0px 10px;
-    width: 250px;
-    height: 40px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    float: right;
-   
-}
+
 .container h1{
       font-size: 20px;
 }
@@ -102,6 +94,7 @@ h1{
 
 .clearfix{
     display: block;
+    width: 86%;
     clear: inherit;
 }
 /*----- Phần menu -----*/
@@ -125,6 +118,7 @@ h1{
 .menu .arrow {
     font-size:10px;
     line-height:10%;
+    z-index: 2;
 } 
 /*----- css cho phần menu cha -----*/
 .menu > ul > li {
@@ -145,6 +139,7 @@ h1{
     color: rgb(253, 253, 253);
     text-decoration: none;
     font-size: 19px;
+    text-transform: uppercase;
 }
 /*----css cho menu con----*/
 .menu li:hover .sub-menu {
@@ -214,10 +209,12 @@ h1{
     background-color: #84e293;
     height: 30px;
     font-size: 12px;
-    padding: 7px 0px 0px 20px;
+    padding: 5px 0px 0px 0px;
     font-family: sans-serif;
 }
-
+footer a{
+  font-size: 12px;
+}
 body{   
   font-family:Arial, sans-serif;   
   font-size:12px;
@@ -225,7 +222,7 @@ body{
   .container{
     width: 50%;
     float: left;
-    padding: 0px 50px;
+    padding: 0px 0px;
   }
   .glyphicon {    
   margin-right:5px;
@@ -250,7 +247,7 @@ body{
   margin-right: 10px;
   }
   .item.list-group-item .thumbnail {  
-  margin-bottom: 0px;
+  margin-bottom: 15px;
   }
   .item.list-group-item .caption {    
   padding: 9px 9px 0px 9px;
@@ -268,7 +265,7 @@ body{
   clear: both;
   }
   .list-group-item-text { 
-  margin: 0 0 11px;
+  padding: 0 0 20px 0px;
   }
 
 aside{
@@ -307,4 +304,10 @@ h3{
 aside h2{
     padding: 30px 0px 10px 0px;
     color: #000000;
+}
+p{
+  text-align: justify;
+}
+.btn-group span{
+  padding: 0px 5px;
 }
